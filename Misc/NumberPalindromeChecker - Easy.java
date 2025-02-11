@@ -1,3 +1,7 @@
+/**
+ * Question: Given an integer x, return true if x is palindrome integer.
+ */
+
 class Solution {
     public boolean isPalindrome(int x) {
         if (x < 0){return false;}

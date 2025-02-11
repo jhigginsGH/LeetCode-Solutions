@@ -18,7 +18,7 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             stack1.push(s.charAt(i));//Create stack of all the grouping symbols
         }
-        try{//If peeking fails this means there were an odd number of symbols and therefor one pair is not complete and we return false.
+        try{ //If peeking fails this means there were an odd number of symbols and therefor one pair is not complete and we return false.
             while (!stack1.empty()){//Process each grouping symbol
                 switch (stack1.peek()) {
                     case ')':

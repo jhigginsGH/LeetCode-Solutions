@@ -1,4 +1,11 @@
 /**
+ * 
+ * Question:
+ * 
+ * You are given the heads of two sorted linked lists list1 and list2.
+ * Merge the two lists into one sorted list
+ * 
+ * 
  * Definition for singly-linked list.
  * public class ListNode {
  *     int val;
@@ -8,6 +15,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+
+ 
 class MergeLinkedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode(0); //Create dummy head node
